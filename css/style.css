@@ -167,12 +167,17 @@ span.m-left {
   margin-top: 100px;
 }
 
-.about h1,
+.about h1{font-size: 10rem;
+  z-index: 0;
+  opacity: .1;
+  margin-bottom: 100px;
+}
 .work h1 {
 
   font-size: 10rem;
   z-index: 0;
   opacity: .1;
+
 
 }
 
@@ -403,6 +408,7 @@ form textarea{
 {background-image: url("../img/1.png");
   background-size:100% 100% ;
   width: 350px;
+  height: 250px;
   justify-self: center;
 }
 #project_2:hover .inner {
@@ -462,4 +468,103 @@ footer p{
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
   background: #555;
+}
+
+@media screen and (max-width: 600px)
+{
+  body{
+    width: 100vw;
+  }
+  .container{
+    padding: 5px;
+  }
+ .navbar{
+    width: 100%;
+
+  }
+ .lgo{
+   display: none
+  }
+ .profile-image
+ {
+   display: none;
+ }
+
+ .work-category
+ {
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+ }
+ .work-category>button
+ {
+   width: 28%;
+   font-size: 14px;
+ }
+ .about{
+   max-height: 100vh;
+ }
+ .about-me-info{
+   z-index: 0;
+ }
+ .about > h1
+ {
+   margin-bottom: 100px;
+   font-size: 90px
+
+ }
+ .about img
+ {
+   display: none;
+ }
+ .skills{
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   margin-top: 200px;
+
+ }
+  div [class^='tag-']{
+    height: 3vw;
+  }
+  div [class^='tag-']>p{
+    height: 3vw;
+    font-size: 2.5vw;
+   padding-top:1px;
+  }
+
+  #cont{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+  }
+  .html
+  {
+    width: 100%;
+
+  }
+ .skills >h1{
+  font-size: 60px;
+ }
+  .skills >p{
+    font-size: 20px;
+  }
+  .tag-html>p
+  {
+    height: 4vw;
+  }
+  .work > h1
+  {
+    font-size:  70px;
+  }
+
+  .contact > h1
+  {
+    font-size: 70px;
+  }
+  form input, form textarea
+  {
+    width: 90%;
+  }
 }
