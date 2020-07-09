@@ -392,11 +392,11 @@ form textarea{
   transition: clip-path 0.5s ease-in-out;
   color: white;}
 #project_1
-{ background-image: url("../img/2.png");
+{ background-image: url("../img/book.JPG");
   background-size:100% 100% ;
   display: flex;
   width: 350px;
-  height: 250px;
+    height: 200px;
 
   justify-self: center;
 }
@@ -405,24 +405,150 @@ form textarea{
 
 }
 #project_2
-{background-image: url("../img/1.png");
+{background-image: url("../img/duopoint.JPG");
   background-size:100% 100% ;
   width: 350px;
-  height: 250px;
+    height: 200px;
   justify-self: center;
 }
 #project_2:hover .inner {
   clip-path: circle(75%);
 }
 #project_3
-{background-image: url("../img/3.png");
+{background-image: url("../img/pizza.JPG");
   background-size:100% 100% ;
   width: 350px;
   justify-self: center;
-  height: 250px;
+  height: 200px;
 }
 #project_3:hover .inner {
   clip-path: circle(75%);
+}
+#project_4
+{background-image: url("../img/meme.JPG");
+    background-size:100% 100% ;
+    width: 350px;
+    justify-self: center;
+    height: 200px;
+}
+#project_4:hover .inner {
+    clip-path: circle(75%);
+}
+
+
+#react_1
+{
+    background-image: url("../img/duopoint.JPG");
+    background-size:100% 100% ;
+    width: 350px;
+    justify-self: center;
+    height: 200px;
+}
+#react_1:hover .inner {
+    clip-path: circle(75%);
+}
+#react_2
+{
+    background-image: url("../img/Token.JPG");
+    background-size:100% 100% ;
+    width: 350px;
+    justify-self: center;
+    height: 200px;
+}
+#react_2:hover .inner {
+    clip-path: circle(75%);
+}
+
+#react_3
+{
+    background-image: url("../img/tweetAnalytics.JPG");
+    background-size:100% 100% ;
+    width: 350px;
+    justify-self: center;
+    height: 200px;
+}
+#react_3:hover .inner {
+    clip-path: circle(75%);
+}
+
+#react_4
+{
+    background-image: url("../img/book.JPG");
+    background-size:100% 100% ;
+    width: 350px;
+    justify-self: center;
+    height: 200px;
+}
+#react_4:hover .inner {
+    clip-path: circle(75%);
+}
+
+#all_1
+{
+    background-image: url("../img/book.JPG");
+    background-size:100% 100% ;
+    width: 350px;
+    justify-self: center;
+    height: 200px;
+}
+#all_1:hover .inner {
+    clip-path: circle(75%);
+}
+#all_2
+{
+    background-image: url("../img/duopoint.JPG");
+    background-size:100% 100% ;
+    width: 350px;
+    justify-self: center;
+    height: 200px;
+}
+#all_2:hover .inner {
+    clip-path: circle(75%);
+}
+#all_3
+{
+    background-image: url("../img/meme.JPG");
+    background-size:100% 100% ;
+    width: 350px;
+    justify-self: center;
+    height: 200px;
+}
+#all_3:hover .inner {
+    clip-path: circle(75%);
+}
+
+#all_4
+{
+    background-image: url("../img/tweetAnalytics.JPG");
+    background-size:100% 100% ;
+    width: 350px;
+    justify-self: center;
+    height: 200px;
+}
+#all_4:hover .inner {
+    clip-path: circle(75%);
+}
+#all_5
+{
+    background-image: url("../img/pizza.JPG");
+    background-size:100% 100% ;
+    width: 350px;
+    justify-self: center;
+    height: 200px;
+}
+#all_5:hover .inner {
+    clip-path: circle(75%);
+}
+#all_6
+{
+    background-image: url("../img/Token.JPG");
+    background-size:100% 100% ;
+    width: 350px;
+    justify-self: center;
+    height: 200px;
+}
+#all_6:hover .inner {
+    clip-path: circle(75%);
 }
 
 
