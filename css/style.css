@@ -550,6 +550,23 @@ form textarea{
 #all_6:hover .inner {
     clip-path: circle(75%);
 }
+.inner > div
+{
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.inner>p{
+    width: 100%;
+    text-align: center;
+}
+.inner>div>a>img
+{
+    height: 100%;
+    width: 100%;
+    cursor: pointer;
+}
 
 
 
